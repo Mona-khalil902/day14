@@ -1,0 +1,145 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.search{
+    width: 730px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 32px ;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.Text{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+input{
+    width: 254px;
+    height: 25px;
+    border: none;
+    background: none;
+}
+::placeholder{
+    color: rgba(75, 106, 155, 1);
+    font-size: 18px;
+}
+.searchbtn{
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 121, 255, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.githubinfo{
+    width: 100%;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.userinfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 138px;
+}
+.personalinfo{
+    display: flex;
+    gap: 37px;
+}
+.userinfo label{
+    color: rgba(105, 124, 154, 1);
+}
+.Joined{
+    width: 166px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.usertext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+p{
+    width: 480px;
+    color: rgba(75, 106, 155, 1);
+    font-size: 15px;
+    padding-left: 160px;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+.watchesinfo{
+    width: 480px;
+    display: flex;
+    gap: 50px;
+    padding-left: 160px;
+    box-sizing: border-box;
+}
+.Repos, .Followers, .Following{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.watchesinfo label{
+    color: rgba(75, 106, 155, 1);
+    font-size: 13px;
+}
+.watchesinfo span{
+    color: rgba(43, 52, 66, 1);
+    font-size: 22px;
+}
+#sociallinks{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    box-sizing: border-box;
+    gap: 25px;
+}
+.Topsocial label{
+    color: rgba(75, 106, 155, 1);
+}
+.Topsocial, .bottomsocial{
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.Twitter, .location, .blog, .office{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.office label{
+    color: rgba(75, 106, 155, 1);
+}

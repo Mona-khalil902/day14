@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+#head{
+    color: rgba(34, 39, 49, 1);
+    font-size: 26px;
+    font-weight: bold;
+}
+.lightbtn , .darkbtn{
+    border: none;
+    width: 80px;
+    background: none;
+}
+.lightMood {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.darkMood{
+    display: none;
+}
+header img{
+    width: 20px;
+    height: 20px;  
+}
+body {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+#moodToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+  

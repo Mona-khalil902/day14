@@ -4,7 +4,6 @@ import dark from "../../assets/Images/dark.svg";
 import "./HeaderWraper.css";
 
 function HeaderWraper() {
-  // إدارة الحالة بدون استخدام useContext
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleTheme = () => {

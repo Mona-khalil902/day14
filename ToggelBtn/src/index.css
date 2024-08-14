@@ -18,3 +18,10 @@ body {
   width: 45%;
   height: 80%;  
 }
+
+@media only screen and (max-width: 600px) {
+  #root {
+    width: 95%;
+    height: 80%;  
+  }
+}

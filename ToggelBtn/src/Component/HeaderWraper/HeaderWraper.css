@@ -48,4 +48,14 @@ body {
     width: 20px;
     height: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    header{
+        
+        width: 100%;
+    }
+    .lightbtn , .darkbtn{
+        width: 100%;
+    }
+  }
   
